@@ -8,6 +8,10 @@ analyzer:
     - "**/*.drift.dart"
     - lib/gen/**.dart
     - lib/design_system/icons/manga_reader_icons.dart
+    - build/**
+    - android/**
+    - ios/**
+    - macos/**
 
 formatter:
   trailing_commas: preserve
